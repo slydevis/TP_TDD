@@ -1,0 +1,43 @@
+package Roman;
+
+public class Roman {
+
+	public int decode(String str)
+	{
+		int Res = 0;
+		for(int i=0; i < str.length(); ++i)
+		{
+			switch(str.charAt(i))
+			{
+				case 'I':
+					Res++;
+					break;
+				case 'V':
+					if(i != 0 && str.charAt(i - 1) == 'I') Res-=2;
+					Res+=5;
+					break;
+				case 'X':
+					if(i != 0 && str.charAt(i - 1) == 'I') Res-=2;
+					Res+=10;
+					break;
+				case 'L':
+					if(i != 0 && str.charAt(i - 1) == 'X') Res-=20;
+					Res+=50;
+					break;
+				case 'C':
+					if(i != 0 && str.charAt(i - 1) == 'X') Res-=20;
+					Res+=100;
+					break;
+				case 'D':
+					if(i != 0 && str.charAt(i - 1) == 'C') Res-=200;
+					Res+=500;
+					break;
+				case 'M':
+					if(i != 0 && str.charAt(i - 1) == 'C') Res-=200;
+
+					Res+=1000;
+			}
+		}
+		return Res;
+	}
+}

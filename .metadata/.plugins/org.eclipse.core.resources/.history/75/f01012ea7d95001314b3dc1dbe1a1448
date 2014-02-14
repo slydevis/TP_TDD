@@ -1,0 +1,79 @@
+/**
+ * 
+ */
+package Roman;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+/**
+ * @author Guillaume
+ *
+ */
+public class TestRoman {
+
+	Roman rom;
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testI() {
+		assertEquals(1, rom.decode("I"));
+	}
+	
+	@Test
+	public void testII() {
+		assertEquals(2, rom.decode("II"));
+	}
+	
+	@Test
+	public void testV() {
+		assertEquals(5, rom.decode("V"));
+	}
+	
+	@Test
+	public void testIV() {
+		assertEquals(4, rom.decode("IV"));
+	}
+	
+	@Test
+	public void testX() {
+		assertEquals(10, rom.decode("X"));
+	}
+	
+	@Test
+	public void testIX() {
+		assertEquals(9, rom.decode("IX"));
+	}
+}
