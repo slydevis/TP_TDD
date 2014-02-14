@@ -23,4 +23,10 @@ public class RomanTest {
     {
         assertEquals(1,rom.exec("I"));
     }
+    
+    @Test
+    public void testII()
+    {
+        assertEquals(2,rom.exec("II");
+    }
 }
