@@ -164,6 +164,6 @@ public class TestRoman {
 	@Test(expected=ArithmeticException.class)
 	public void TDD ()
 	{
-		rom.decode("TDD");
+		rom.decode("TDDD");
 	}
 }
