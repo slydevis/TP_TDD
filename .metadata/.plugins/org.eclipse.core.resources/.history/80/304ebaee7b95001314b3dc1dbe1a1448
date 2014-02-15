@@ -1,9 +1,0 @@
-package Roman;
-
-public class Roman {
-
-	public int decode(String str)
-	{
-		return 0;
-	}
-}

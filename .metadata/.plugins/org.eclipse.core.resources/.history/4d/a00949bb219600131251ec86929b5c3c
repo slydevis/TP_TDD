@@ -1,0 +1,22 @@
+package Operation_maths;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class DivisionTest {
+
+	Division div;
+	
+	@Before
+	public void setUp() throws Exception {
+		div = new Division();
+	}
+
+	@Test
+	public void Test1() {
+		assertEquals(1, div.exec(42, 42));
+	}
+
+}

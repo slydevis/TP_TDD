@@ -1,0 +1,41 @@
+package Operation_maths;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class AdditionTest {
+
+	Addition add;
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		add = new Addition();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void Test5() {
+		assertEquals(5, add.exec(3,2));
+	}
+	
+	@Test
+	public void Test42() {
+		assertEquals(42, add.exec(2,40));
+	}
+
+}

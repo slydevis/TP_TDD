@@ -1,0 +1,9 @@
+package Operation_maths;
+
+public class Division {
+
+	public int exec(int a, int b)
+	{
+		return a / b;
+	}
+}

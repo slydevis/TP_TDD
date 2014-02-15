@@ -1,0 +1,29 @@
+package Operation_maths;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class DivisionTest {
+
+	Division div;
+	
+	@Before
+	public void setUp() throws Exception {
+		div = new Division();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

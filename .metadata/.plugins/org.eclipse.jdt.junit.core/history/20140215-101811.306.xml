@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DivisionTest" project="Operation" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="Operation_maths.DivisionTest" time="0.001">
+    <testcase name="Test0" classname="Operation_maths.DivisionTest" time="0.0"/>
+    <testcase name="Test1" classname="Operation_maths.DivisionTest" time="0.0"/>
+    <testcase name="Test2" classname="Operation_maths.DivisionTest" time="0.0"/>
+  </testsuite>
+</testrun>

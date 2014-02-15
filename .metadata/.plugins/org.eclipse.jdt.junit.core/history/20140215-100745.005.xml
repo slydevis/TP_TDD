@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SoustractionTest" project="Operation" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Operation_maths.SoustractionTest" time="0.001">
+    <testcase name="Test42" classname="Operation_maths.SoustractionTest" time="0.001"/>
+    <testcase name="Test5" classname="Operation_maths.SoustractionTest" time="0.0"/>
+  </testsuite>
+</testrun>
